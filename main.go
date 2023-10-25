@@ -19,9 +19,9 @@ func main() {
 
 	// log.Println("JSON API server is running on port: ", server.listenAddr)
 
-	// configs.ConnectDB()
+	configs.ConnectDB()
 
-	// routes.Route(router)
+	routes.Route(router)
 
 	router.Run("localhost:6000")
 	// http.ListenAndServe(server.listenAddr, router)
